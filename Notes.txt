@@ -1,0 +1,26 @@
+										MIHgram(Instagram-Clone) using React & Firebase
+1.) Installed react modules
+		npx create-react-app mihgram
+2.) Installed firebase tools (and completed setting-up the App)
+		npm install -g firebase-tools
+3.) Started the server in port 3000 in the react folder(i.e mihgram)
+		$ cd mihgram
+		$ npm start
+4.) Deleted unwanted files (like logo.png)
+5.) Added Instagram logo
+		<img
+			className="app_headerImage"
+			src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+			alt="" 
+		/>
+6.) When resizing the window to avoid extending the image we need to maintain the aspect ratio
+		object-fit:contain; (in CSS)
+7.) Added aheader for the logo
+8.) Now created post.js and post.css to create posts
+	* Remember to seperate components as much as possible
+9.) Import everything to App.js
+10.) use { } to attach a js line
+	 For eg: consider name as a variable
+	 so use { name } to use it
+11.) Install Material-UI
+12.) Took avatar and imported it from material-UI
