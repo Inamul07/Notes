@@ -1,14 +1,14 @@
 # MIHgram(Instagram-Clone) using React & Firebase
 1. Installed react modules
-		  1.`npx create-react-app mihgram`
+		  1. `npx create-react-app mihgram`
 1. Installed firebase tools (and completed setting-up the App)
-		  1.`npm install -g firebase-tools`
+		  1. `npm install -g firebase-tools`
 1. Started the server in port 3000 in the react folder(i.e mihgram)
-		1.`$ cd mihgram`
-		1.`$ npm start`
+		1. `$ cd mihgram`
+		1. `$ npm start`
 1. Deleted unwanted files (like logo.png)
 1. Added Instagram logo
-      1.`<img
+      1. `<img
 			  className="app_headerImage"
 			  src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
 			  alt="" 
