@@ -9,19 +9,17 @@
 1. Deleted unwanted files (like logo.png)
 1. Added Instagram logo
       1. `<img
-			  className="app_headerImage"
-			  src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
-			  alt="" 
-		  />
-      `
+		  className="app_headerImage"
+		  src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+		  alt="" 
+	/>`
 1. When resizing the window to avoid extending the image we need to maintain the aspect ratio
-		 1. `object-fit:contain;` (in CSS)
+	1. `object-fit:contain;` (in CSS)
 1. Added aheader for the logo
 1. Now created post.js and post.css to create posts
-	  1. Remember to seperate components as much as possible
+	1. Remember to seperate components as much as possible
 1. Import everything to App.js
 1. use { } to attach a js line
-	 For eg: consider name as a variable
-	 so use `{ name }` to use it
+	1. For eg: consider name as a variable so use `{ name }` to use it
 1. Install Material-UI
 1. Took avatar and imported it from material-UI
