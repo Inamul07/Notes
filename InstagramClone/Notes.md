@@ -8,7 +8,7 @@
 		$ npm start```
 1. Deleted unwanted files (like logo.png)
 1. Added Instagram logo
-		  ```html
+		  ```
       <img
 			  className="app_headerImage"
 			  src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
