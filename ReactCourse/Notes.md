@@ -19,7 +19,7 @@
 10. For better learning ,delete all the files from the `src` folder except `index.js` but clear the contents fron it]\
 11. Open `index.js` and import react `import React from 'react'`
 12. Always enclose your app in a function and write your component code in the return statement
-    - ![ComponentImage](Images/component.bmp)
+    - ![ComponentImage](Images/Component.bmp)
 13. If you are creating a component keep the name starting with an uppercase letter 
     - So react knoes that it is a component
 - **Note:** The file `index.html` contains a div with id `root`.
