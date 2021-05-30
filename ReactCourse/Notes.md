@@ -19,7 +19,7 @@
 10. For better learning ,delete all the files from the `src` folder except `index.js` but clear the contents fron it]\
 11. Open `index.js` and import react `import React from 'react'`
 12. Always enclose your app in a function and write your component code in the return statement
-    - ![ComponentImage](Images/component.bmp)
+    - ![ComponentImage](Images/Component.bmp)
 13. If you are creating a component keep the name starting with an uppercase letter 
     - So react knoes that it is a component
 - **Note:** The file `index.html` contains a div with id `root`.
@@ -27,3 +27,6 @@
 14. To render it to `index.html` import `ReactDom`
     - `import ReactDom from 'react-dom'`
 15. Now add the code `ReactDom.render(<ComponentName/>,document.getElementById('root'));`
+16. Use ES7 extension for better programming
+    - ![ES7extension](Images/ES7extension.png)
+    - (i.e) If you type `rfce` it will type the code component
