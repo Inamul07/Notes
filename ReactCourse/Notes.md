@@ -27,3 +27,6 @@
 14. To render it to `index.html` import `ReactDom`
     - `import ReactDom from 'react-dom'`
 15. Now add the code `ReactDom.render(<ComponentName/>,document.getElementById('root'));`
+16. Use ES7 extension for better programming
+    - ![ES7extension](Images/ES7extension.png)
+    - (i.e) If you type `rfce` it will type the code component
