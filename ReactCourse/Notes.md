@@ -30,3 +30,4 @@
 16. Use ES7 extension for better programming
     - ![ES7extension](Images/ES7extension.png)
     - (i.e) If you type `rfce` it will type the code component
+    - ![rfceCode](Images/rfce.png)
