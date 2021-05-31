@@ -18,16 +18,23 @@
 9. Now you can start the development server in localhost:3000 by typing `npm start`
 10. For better learning ,delete all the files from the `src` folder except `index.js` but clear the contents fron it]\
 11. Open `index.js` and import react `import React from 'react'`
-12. Always enclose your app in a function and write your component code in the return statement
-    - ![ComponentImage](Images/Component.bmp)
-13. If you are creating a component keep the name starting with an uppercase letter 
+12. If you are creating a component keep the name starting with an uppercase letter 
     - So react knoes that it is a component
 - **Note:** The file `index.html` contains a div with id `root`.
     - This div contains the app (i.e) The app lives in that div
-14. To render it to `index.html` import `ReactDom`
+13. To render it to `index.html` import `ReactDom`
     - `import ReactDom from 'react-dom'`
-15. Now add the code `ReactDom.render(<ComponentName/>,document.getElementById('root'));`
-16. Use ES7 extension for better programming
+14. Now add the code `ReactDom.render(<ComponentName/>,document.getElementById('root'));`
+15. Use ES7 extension for better programming
     - ![ES7extension](Images/ES7extension.png)
     - (i.e) If you type `rfce` it will type the code component
     - ![rfceCode](Images/rfce.png)
+16. Always enclose your app in a function and write your component code in the return statement (COMPULSORY)
+    - ![ComponentImage](Images/Component.bmp)
+17. Use paranthesis in the return statement
+    - The HTML tags inside the return statements are called `JSX`
+18. Use can use only one parent tag and it may contain many tags inside it
+    - You can use `<React.Fragment>` tag or an empty tag `<>` to enclose the remaining tags
+    - Or you can use tags like `<section> , <article>` e.t.c for understanding
+19. Always use camelCase for html attributes
+    - For e.g for class type `className`
