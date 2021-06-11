@@ -45,14 +45,14 @@
     - Simply navigate to component tab in from console and you'll find it there
 1. Always use `{}` to enter js line in the JSX tags
     - if name is a variable then use `{name}` to use the variable inside the JSX tag to use it
-    - ![Js In JSX](Images/jsInJSX)
+    - ![Js In JSX](Images/jsInJSX.png)
 1. We can use CSS to style our website and it'll be comfortable if you know the basics of CSS.
 1. CSS can be linked in 2 ways
     - By Inline CSS
     - By Seperate File
 1. Inline CSS:
     - create a style attribute int your HTML(JSX) tag and enter the styles
-    - ![InLine CSS](Images/InlineCSS)
+    - ![InLine CSS](Images/InlineCSS.png)
 1. Seperate File:
     - crete a file with .css extension and import it to your main js file using `import './file_name.css'`
     - And add your styles in that file
