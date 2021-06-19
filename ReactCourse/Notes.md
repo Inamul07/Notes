@@ -56,3 +56,4 @@
 1. Seperate File:
     - crete a file with .css extension and import it to your main js file using `import './file_name.css'`
     - And add your styles in that file
+1. Props:
