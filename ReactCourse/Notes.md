@@ -56,4 +56,11 @@
 1. Seperate File:
     - crete a file with .css extension and import it to your main js file using `import './file_name.css'`
     - And add your styles in that file
-1. Props:
+1. **Props** is nothing but arguments that contains an object that is passed from  the components using attributes
+    - ![constVars](Images/ConstVars.png)
+    - In the above image we declared two consts with the data inside
+    - ![PassingData](Imaged/PassingData.png)
+    - Then, we pass the data to the component
+    - ![Props](Images/Props.png)
+    - Now we can access them using props
+    - [Refer this for explaination](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=7780s)
