@@ -59,7 +59,7 @@
 1. **Props** is nothing but arguments that contains an object that is passed from  the components using attributes
     - ![constVars](Images/ConstVars.png)
     - In the above image we declared two consts with the data inside
-    - ![PassingData](Imaged/PassingData.png)
+    - ![PassingData](Images/PassingData.png)
     - Then, we pass the data to the component
     - ![Props](Images/Props.png)
     - Now we can access them using props
